@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+		<script src="static/fanctl_display.js"></script>
+		<link type="text/css" rel="stylesheet" href='/static/style.css' />
+	</head>
+	<body>
+		<br><br><br><br><br>
+		<table>
+			<theadead>
+				<tr> <td class="thead-t" >CPU:</td><td class="thead" colspan="2" id="cpuFanSpeed"></td><td class="thead" id="cpuPercent"></td></tr>
+			</theadead>
+			<tbody>
+				<tr> <td id=cpu1 ></td> <td id=cpu2 ></td> <td id=cpu3 ></td> <td id=cpu4 ></td> </tr>
+				<tr> <td id=cpu5 ></td> <td id=cpu6 ></td> <td id=cpu7 ></td> <td id=cpu8 ></td> </tr>
+			</tbody>
+		</table>
+		<br><br><br>
+		<table>
+			<theadead>
+				<tr> <td class="thead-t" >HEAD 00:</td> <td class="thead" colspan="2" id="fanSpeed0"></td><td class="thead" id="ambTemp0"></td></tr>
+			</theadead>
+			<tbody>
+				<tr> <td id=disk1 ></td> <td id=disk2 ></td> <td id=disk3 ></td> <td id=disk4 ></td> </tr>
+				<tr> <td id=disk5 ></td> <td id=disk6 ></td> <td id=disk7 ></td> <td id=disk8 ></td> </tr>
+				<tr> <td id=disk9 ></td> <td id=disk10></td> <td id=disk11></td> <td id=disk12></td> </tr>
+				<tr> <td id=disk13></td> <td id=disk14></td> <td id=disk15></td> <td id=disk16></td> </tr>
+				<tr> <td id=disk17></td> <td id=disk18></td> <td id=disk19></td> <td id=disk20></td> </tr>
+				<tr> <td id=disk21></td> <td id=disk22></td> <td id=disk23></td> <td id=disk24></td> </tr>
+			</tbody>
+		</table>
+		<br><br><br>
+		<table>
+			<theadead>
+				<tr> <td class="thead-t" >SHELF 01:</td> <td class="thead" colspan="2" id="fanSpeed1"></td><td class="thead" id="ambTemp1"></td></tr>
+			</theadead>
+			<tbody>
+				<tr> <td id=disk25></td> <td id=disk26></td> <td id=disk27></td> <td id=disk28></td> </tr>
+				<tr> <td id=disk29></td> <td id=disk30></td> <td id=disk31></td> <td id=disk32></td> </tr>
+				<tr> <td id=disk33></td> <td id=disk34></td> <td id=disk35></td> <td id=disk36></td> </tr>
+				<tr> <td id=disk37></td> <td id=disk38></td> <td id=disk39></td> <td id=disk40></td> </tr>
+				<tr> <td>---</td> <td>---</td> <td>---</td> <td>---</td> </tr>
+				<tr> <td>---</td> <td>---</td> <td>---</td> <td>---</td> </tr>
+			</tbody>
+		</table>
+	</body>
+</html>

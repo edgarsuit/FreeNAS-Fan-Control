@@ -1,0 +1,47 @@
+
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #494f59;
+}
+
+table {
+	text-align: center;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 5px solid #cccccc;
+}
+
+tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+	background-color: #eff2f7;
+}
+
+
+td {
+	font-size: 30px;
+	font-weight: 400;
+	padding: 10px 100px 10px 100px;
+	border: 1px solid #cccccc;
+}
+
+
+td.thead {
+	border: 0;
+	background-color: #e6e8ed;
+	padding: 10px 10px 10px 10px;
+}
+
+td.thead-t {
+	border: 0;
+	background-color: #e6e8ed;
+	font-size: 35px;
+	font-weight: 800;
+	padding: 10px 10px 10px 10px;
+}
+
+td.hot {
+	background-color: #ffdada;
+}
